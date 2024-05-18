@@ -1,0 +1,393 @@
+* {
+  padding: 0;
+  margin: 0;
+  text-decoration: none;
+  list-style: none;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #43541B;
+}
+
+header {
+  position: relative;
+}
+
+nav {
+  background: #43541B;
+  height: 80px;
+  width: 100%;
+  display: flex; 
+  justify-content:center;
+  padding-top: 40px;
+  font-family: Stencil Std, fantasy;
+}
+
+nav ul {
+  display: flex;
+  justify-content: space-between; 
+  align-items: center;
+  width: 70%;
+}
+
+nav ul li {
+  display: inline-block;
+  line-height: 80px;
+  margin: 10px 5px;
+}
+
+nav ul li a {
+  color: #D1C073;
+  font-size: 30px;
+  padding: 10px 0;
+  border-radius: 4px;
+  text-transform: uppercase;
+}
+
+.checkbtn i {
+  cursor: pointer;
+}
+
+#check {
+  display: none;
+}
+.flogo {
+border-radius: 50%;
+display: block;
+margin-left: 45%;
+margin-top: 20px;
+width: 10%;
+position: absolute;
+z-index: 999;
+}
+.fpaw{
+margin: 10px 0;
+float: right;
+object-fit: cover;
+width: 90%;
+margin-right: 5%;
+}
+
+.wrapper {
+  margin-top: 17%;
+  margin-right: 70%; 
+}
+
+.wrapper .flip-card{
+  position: relative;
+  height: 100%;
+  width: 100%;
+  background: #beb7a9;
+  transform-style: preserve-3d;
+  transition: all 1s ease-in-out;
+}
+.wrapper:hover .flip-card{
+  transform: rotateY(180deg);
+}
+.flip-card .card{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  width: 100%;
+  background: #e2d7c3;
+  backface-visibility: hidden;
+  position: absolute;
+}
+
+.back.card{
+  transform: rotateY(180deg);
+}
+
+.cat{
+  font-size: 30px;
+  color: #D1C073;
+  font-family: Stencil Std, fantasy;
+  border: solid 1px #beb7a9;
+  padding: 20px;
+}
+
+.panko{
+  padding: 5px;
+  position: absolute;
+  margin-top: 25%;
+  color: #eee4b5;
+  font-family: Stencil Std, fantasy;
+  font-size: 25px;
+}
+
+.pankot{
+  position: absolute;
+  margin-top: 55%;
+  margin-left: 27%;
+  margin-right: 25%;
+}
+
+/**wrapper 2**/
+.wrapper2 {
+  margin-top: 17%;
+  margin-right: 25%;
+}
+
+.wrapper2 .flip-card{
+  position: relative;
+  height: 100%;
+  width: 100%;
+  background: #beb7a9;
+  transform-style: preserve-3d;
+  transition: all 1s ease-in-out;
+}
+.wrapper2:hover .flip-card{
+  transform: rotateY(180deg);
+}
+.flip-card .card{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  width: 100%;
+  background: #e2d7c3;
+  backface-visibility: hidden;
+  position: absolute;
+}
+
+.back.card{
+  transform: rotateY(180deg);
+}
+
+
+.british{
+  width: 18%;
+}
+
+.britishp{
+  position: absolute;
+  margin-top: 23%;
+  margin-left: 40%;
+  margin-right: 38%;
+}
+
+/**wrapper 3**/
+.wrapper3{
+  margin-left: 20%;
+}
+.wrapper3 .flip-card{
+  position: relative;
+  height: 100%;
+  width: 100%;
+  background: #beb7a9;
+  transform-style: preserve-3d;
+  transition: all 1s ease-in-out;
+}
+.wrapper3:hover .flip-card{
+  transform: rotateY(180deg);
+}
+.flip-card .card{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  width: 100%;
+  background: #e2d7c3;
+  backface-visibility: hidden;
+  position: absolute;
+}
+.back.card{
+  transform: rotateY(180deg);
+}
+.calico{
+  position: absolute;
+  margin-top: 19%;
+  margin-left: 42%;
+  margin-right: 39%;
+}
+
+
+
+
+/**wrapper 4**/
+.wrapper4{
+  margin-left: 65%;
+}
+.wrapper4 .flip-card{
+  position: relative;
+  height: 100%;
+  width: 100%;
+  background: #beb7a9;
+  transform-style: preserve-3d;
+  transition: all 1s ease-in-out;
+}
+.wrapper4:hover .flip-card{
+  transform: rotateY(180deg);
+}
+.flip-card .card{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  width: 100%;
+  background: #e2d7c3;
+  backface-visibility: hidden;
+  position: absolute;
+}
+
+.back.card{
+  transform: rotateY(180deg);
+}
+
+.siamese{
+  position: absolute;
+  margin-top: 50%;
+  margin-left: 30%;
+  margin-right: 30%;
+}
+
+/* wrapper5*/
+.wrapper5{
+  margin-right: 70%;
+  margin-top: 40%;
+}
+.wrapper5 .flip-card{
+  position: relative;
+  height: 100%;
+  width: 100%;
+  background: #beb7a9;
+  transform-style: preserve-3d;
+  transition: all 1s ease-in-out;
+}
+.wrapper5:hover .flip-card{
+  transform: rotateY(180deg);
+}
+.flip-card .card{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  width: 100%;
+  background: #e2d7c3;
+  backface-visibility: hidden;
+  position: absolute;
+}
+
+.back.card{
+  transform: rotateY(180deg);
+}
+.maine{
+    position: absolute;
+    margin-top: 55%;
+    margin-left: 28%;
+    margin-right: 28%;
+}
+
+
+/*wrapper6*/
+.wrapper6{
+  margin-right: 25%;
+  
+}
+.wrapper6 .flip-card{
+  position: relative;
+  height: 100%;
+  width: 100%;
+  background: #beb7a9;
+  transform-style: preserve-3d;
+  transition: all 1s ease-in-out;
+}
+.wrapper6:hover .flip-card{
+  transform: rotateY(180deg);
+}
+.flip-card .card{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  width: 100%;
+  background: #e2d7c3;
+  backface-visibility: hidden;
+  position: absolute;
+}
+
+.back.card{
+  transform: rotateY(180deg);
+}
+
+.persian{
+  position: absolute;
+  margin-top: 20%;
+  margin-left: 40%;
+  margin-right: 40%;
+}
+
+/*wrapper7*/
+.wrapper7{
+  margin-left: 20%;
+}
+.wrapper7 .flip-card{
+  position: relative;
+  height: 100%;
+  width: 100%;
+  background: #beb7a9;
+  transform-style: preserve-3d;
+  transition: all 1s ease-in-out;
+}
+.wrapper7:hover .flip-card{
+  transform: rotateY(180deg);
+}
+.flip-card .card{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  width: 100%;
+  background: #e2d7c3;
+  backface-visibility: hidden;
+  position: absolute;
+}
+.back.card{
+  transform: rotateY(180deg);
+}
+
+.ragdoll{
+  position: absolute;
+  margin-top: 19%;
+  margin-left: 42%;
+  margin-right: 39%;
+}
+
+/*wrapper8*/
+.wrapper8{
+  margin-left: 65%;
+}
+.wrapper8 .flip-card{
+  position: relative;
+  height: 100%;
+  width: 100%;
+  background: #beb7a9;
+  transform-style: preserve-3d;
+  transition: all 1s ease-in-out;
+}
+.wrapper8:hover .flip-card{
+  transform: rotateY(180deg);
+}
+.flip-card .card{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  width: 100%;
+  background: #e2d7c3;
+  backface-visibility: hidden;
+  position: absolute;
+}
+
+.back.card{
+  transform: rotateY(180deg);
+}
+
+.blue{
+  position: absolute;
+  margin-top: 48%;
+  margin-left: 30%;
+  margin-right: 30%;
+}

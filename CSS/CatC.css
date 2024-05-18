@@ -1,0 +1,187 @@
+* {
+  padding: 0;
+  margin: 0;
+  text-decoration: none;
+  list-style: none;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #43541B;
+}
+
+header {
+  position: relative;
+}
+
+nav {
+  background: #43541B;
+  height: 80px;
+  width: 100%;
+  display: flex; 
+  justify-content:center;
+  padding-top: 40px;
+  font-family: Stencil Std, fantasy;
+}
+
+nav ul {
+  display: flex;
+  justify-content: space-between; 
+  align-items: center;
+  width: 70%;
+}
+
+nav ul li {
+  display: inline-block;
+  line-height: 80px;
+  margin: 10px 5px;
+}
+
+nav ul li a {
+  color: #D1C073;
+  font-size: 30px;
+  padding: 10px 0;
+  border-radius: 4px;
+  text-transform: uppercase;
+}
+
+.checkbtn i {
+  cursor: pointer;
+}
+
+#check {
+  display: none;
+}
+.flogo {
+border-radius: 50%;
+display: block;
+margin-left: 45%;
+margin-top: 20px;
+width: 10%;
+position: absolute;
+z-index: 999;
+}
+.fpaw{
+margin: 10px 0;
+float: right;
+object-fit: cover;
+width: 90%;
+margin-right: 5%;
+}
+
+.container{
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.container .preloader{
+  animation: rotate 2.3s cubic-bezier(0.75, 0, 0.5, 1) infinite;
+}
+@keyframes rotate {
+  50%{
+    transform: rotate(360deg);
+  }
+  100%{
+    transform: rotate(720deg);
+  }
+}
+.preloader span{
+  position: absolute;
+  display: block;
+  height: 64px;
+  width: 64px;
+  background: #e76295;
+  border: 1px solid #e76295;
+  border-radius: 100%;
+}
+.preloader span:nth-child(1){
+  transform: translate(-28px, -28px);
+  animation: shape_1 2.3s cubic-bezier(0.75, 0, 0.5, 1) infinite;
+}
+@keyframes shape_1 {
+  60%{
+    transform: scale(0.4);
+  }
+}
+.preloader span:nth-child(2){
+  transform: translate(28px, -28px);
+  animation: shape_2 2.3s cubic-bezier(0.75, 0, 0.5, 1) infinite;
+}
+@keyframes shape_2 {
+  40%{
+    transform: scale(0.4);
+  }
+}
+.preloader span:nth-child(3){
+  position: relative;
+  border-radius: 0px;
+  transform: scale(0.98) rotate(-45deg);
+  animation: shape_3 2.3s cubic-bezier(0.75, 0, 0.5, 1) infinite;
+}
+@keyframes shape_3 {
+  50%{
+    border-radius: 100%;
+    transform: scale(0.5) rotate(-45deg);
+  }
+  100%{
+    transform: scale(0.98) rotate(-45deg);
+  }
+}
+.shadow{
+  position: relative;
+  top: 30px;
+  left: 50%;
+  transform: translateX(-50%);
+  display: block;
+  height: 16px;
+  width: 64px;
+  border-radius: 50%;
+  background-color: #d9d9d9;
+  border: 1px solid #d9d9d9;
+  animation: shadow 2.3s cubic-bezier(0.75, 0, 0.5, 1) infinite;
+}
+@keyframes shadow {
+  50%{
+    transform: translateX(-50%) scale(0.5);
+    border-color: #f2f2f2;
+  }
+}
+
+.diet{
+  text-align: center;
+}
+.maind{
+  margin-top: 22%;
+  border: solid 1px #D1C073;
+  background-color: #5d742a;
+  margin-right: 55%;
+  margin-left: 5%;
+  padding: 10px;
+  color:#D1C073;
+}
+
+.food{
+  padding: 10px;
+  margin-left: 25%;;
+}
+
+.sick{
+  margin-top: -28%;
+  border: solid 1px #D1C073;
+  background-color: #5d742a;
+  padding: 10px;
+  color:#D1C073;
+  margin-left: 55%;
+  margin-right: 6%;
+  position: absolute;
+}
+
+.ill{
+  padding: 10px;
+  margin-left: 20%;
+}
+
+.sickn{
+  text-align: center;
+}
